@@ -173,6 +173,6 @@ php bin/realtimedata.php
 
 
 - Auther: krbutani
-- Contact Me need More help
+- Contact me if you need More help
 - [Whatsapp: +91 8460304360](https://api.whatsapp.com/send?phone=918460304360&text=I%20read%20your%20Github%20repo.%20I%20want%20help%20with%20Socket%20programming%20using%20PHP.%F0%9F%98%80)
 
