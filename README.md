@@ -3,8 +3,8 @@
 
 - Here bin folder is contain server file that you can execute on command.
 - Src folder is contain atual logic on it.
-
-- First, Download Ratchet Library file on your pc using composer
+- Download [composer.phar](https://getcomposer.org/download) firstly.
+- Running the `php composer.phar install` to install required dependencies.
 
 ```
 composer require cboden/ratchet
