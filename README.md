@@ -5,14 +5,9 @@
 - Src folder is contain atual logic on it.
 - Download [composer.phar](https://getcomposer.org/download) firstly.
 - Running the `php composer.phar install` to install required dependencies.
-
-```
-composer require cboden/ratchet
-```
-
 - Then after Create Our Login File on src folder ( RealTimeData.php )
 
-```
+```php
 namespace MyApp;
 use Ratchet\MessageComponentInterface;
 use Ratchet\ConnectionInterface;
@@ -65,7 +60,7 @@ class RealTimeData implements MessageComponentInterface {
 
 - After done this thing create server on bin folder ( realtimedata.php )
 
-```
+```php
 <?php
 use Ratchet\Server\IoServer;
 use Ratchet\Http\HttpServer;
@@ -88,7 +83,7 @@ use MyApp\RealTimeData;
 
 - Now You call these WebSocket Services ( index.php )
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
